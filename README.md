@@ -1,66 +1,76 @@
-🛰️ IoT-Based Smart Food Waste Monitoring System
-📌 Overview
+# 🛰️ IoT-Based Smart Food Waste Monitoring System
 
-The Smart Food Waste Monitoring System is an IoT solution designed to measure, track, and analyze food waste generated in hostels, canteens, and restaurants.
-The system uses a load cell sensor and ESP32 microcontroller to measure waste weight and upload real-time data to the cloud for visualization and analysis.
+![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
+![Sensor](https://img.shields.io/badge/Sensor-LoadCell-orange)
+![IoT](https://img.shields.io/badge/IoT-Enabled-green)
+![Cloud](https://img.shields.io/badge/Cloud-ThingSpeak-purple)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-This project helps institutions:
-  Reduce food wastage
-  Monitor daily consumption patterns
-  Improve kitchen planning
-  Promote sustainability
+---
 
-🎯 Objectives
-  Measure real-time food waste using a load cell
-  Send data to cloud dashboard via WiFi
-  Display waste trends using graphs
-  Create a scalable smart mess monitoring system
+## 📌 Overview
+The **Smart Food Waste Monitoring System** is an IoT-based solution that measures food waste weight in real time using a load cell sensor and uploads the data to the cloud via ESP32.  
 
-🛠️ Hardware Used
-  ESP32 Development Board
-  Load Cell (5kg / 10kg)
-  HX711 Load Cell Amplifier
-  Power supply module
-  Waste bin platform setup
+This project helps hostels, restaurants, and institutions monitor waste patterns and reduce unnecessary food disposal.
 
-💻 Software Used
-  Arduino IDE
-  ThingSpeak / Firebase / Custom Web Server
-  Embedded C / Arduino programming
-  
-⚙️ Working Principle
-  Food waste is placed on the bin platform.
-  Load cell senses weight change.
-  HX711 converts analog signal to digital data.
-  ESP32 reads weight and connects to WiFi.
-  Data is upload to cloud dashboard.
-  Waste trends can be monitored remotely.
+---
 
-📊 Output
-  Real-time waste weight display
-  Daily waste trend graphs
-  Cloud data logging
-  Serial monitor readings
+## 🎯 Objectives
+- Measure real-time food waste using load cell
+- Upload data to IoT cloud dashboard
+- Track daily waste trends
+- Provide a scalable smart monitoring solution
 
-🌍 Applications
-  College hostels
-  Hotels and restaurants
-  Smart kitchens
-  Food sustainability programs
-  Government waste monitoring systems
+---
 
-🚀 Future Improvements
-  AI-based waste prediction
-  Mobile app dashboard
-  Multi-bin monitoring system
-  Automatic alert for excess waste
-  Integration with smart kitchen systems
+## 🛠️ Hardware Components
+- ESP32 Development Board  
+- Load Cell (5kg / 10kg)  
+- HX711 Load Cell Amplifier  
+- Power Supply Module  
+- Waste Bin Platform Setup  
 
-👨‍💻 Author
-SHREERAJ S
-ECE Student | IoT Enthusiast
-GitHub: https://github.com/SRECONICS
+---
 
+## 💻 Software Used
+- Arduino IDE  
+- Embedded C / Arduino Programming  
+- ThingSpeak / Firebase / Web API  
+- Serial Monitor Debugging  
+
+---
+
+## ⚙️ System Working
+1. Waste is placed on the smart bin platform.  
+2. Load cell senses weight variation.  
+3. HX711 converts analog signal to digital value.  
+4. ESP32 reads data and connects to WiFi.  
+5. Waste data is uploaded to cloud dashboard.  
+6. Users can monitor waste remotely using graphs.
+
+---
+
+##📊 Sample Serial Output
+- Waste Weight: 1.42 kg
+- Connecting to WiFi...
+- Uploading data...
+- Upload successful
+
+##🌍 Applications
+- Smart hostel mess monitoring
+- Restaurant waste tracking
+- Food sustainability analytics
+- IoT-based smart kitchen systems
+
+##🚀 Future Scope
+- Mobile app dashboard
+- AI-based waste prediction
+- Multi-bin monitoring
+- SMS alert for excess waste
+- Integration with smart inventory systems
+
+##👨‍💻 Author
 Sreconics
-ECE Student | IoT Enthusiast
+ECE Student | IoT Developer
 GitHub: https://github.com/SRECONICS
